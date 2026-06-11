@@ -8,8 +8,6 @@ email_id = os.environ.get("MY_EMAIL")
 password = os.environ.get("MY_PASSWORD")
 df=pd.read_csv('birthdays.csv')
 
-
-df.to_csv('birthdays.csv')
 dict_df=df.to_dict(orient='records')
 letter_temp=[]
 
