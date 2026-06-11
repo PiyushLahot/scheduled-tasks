@@ -4,8 +4,8 @@ import random as rnd
 import datetime as dt
 import os
 
-email_id = os.environ.get("MY_EMAIL")
-password = os.environ.get("MY_PASSWORD")
+email_id = os.environ.get("email_id")
+password = os.environ.get("password")
 df=pd.read_csv('birthdays.csv')
 
 dict_df=df.to_dict(orient='records')
